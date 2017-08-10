@@ -40,53 +40,42 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
-            width: 200px;
+            overflow: hidden;
             background-color: #ffffff;
+        }
+        li {
+            float: left;
         }
         li a {
             display: block;
             color: #000;
-            padding: 8px 16px;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
         }
         /* Change the link color on hover and when clicked on leep color to remain the same */
         li a.active {
-            background-color: #0ef288;
+            background-color: #fffff;
             color: black;
         }
 
         li a:hover:not(.active) {
-            background-color: #dc72f9;
+            background-color: #cc08cc;
             color: black;
         }
       </style>
     </head>
     
     <body>
-      <div class="button quiz">
-        <font size="21">Find out more about your style!</font>
-      </div>
-      
-      <br>
-      
-      <div class="button tips">
-        <font size="21">Tips and helpful hints!</font>
-      </div>
-      
-      <br>
-      
-      <div class="button about-us">
-        <a href="https://amanda137.github.io/Final-project/About/workspace.html">
-          <font size="21">Meet the creators!</font>
-        </a>
-      </div>
-
-      /* this is for the vertical menu */
-      
       <ul>
         <li>
           <a class="active" href="https://amanda137.github.io/Final-project/About/homepage.html">
             <font size="14">Home</font>
+          </a>
+        </li>
+        <li>
+          <a class="active" href="#Take quiz">
+            <font size="14">Take Quiz</font>
           </a>
         </li>
         <li>
@@ -100,3 +89,30 @@
           </a>
         </li>
       </ul>
+
+      
+      
+      <div class="button quiz" align="center">
+        <font size="21"><Find out more about your style!</font>
+      </div>
+      
+      <br>
+      
+      <div class="button tips" align="center>
+        <font size="21">Tips and helpful hints!</font>
+      </div>
+      
+      <br>
+      
+      <div class="button about-us" align="center>
+        <a href="https://amanda137.github.io/Final-project/About/workspace.html">
+          <font size="21">Meet the creators!</font>
+        </a>
+      </div>
+        
+        
+
+
+      
+      
+
